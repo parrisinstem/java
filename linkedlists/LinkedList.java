@@ -5,8 +5,9 @@ public class LinkedList {
 
   public static void main(String []args) {
     // Write your code here: 
-    System.out.println("testing"); 
-    
+    LinkedList myList = new LinkedList();
+    myList.addToHead("sissy");
+    myList.printList();    
 
   }
 

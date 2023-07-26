@@ -1,7 +1,5 @@
 package search.linear.maximum;
 
-import java.util.ArrayList;
-
 public class Maximum {
 
     public static Integer linearSearch(int[] searchList) {
