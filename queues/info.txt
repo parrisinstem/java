@@ -1,0 +1,29 @@
+DEFINITION
+Queues are a fundamental data structure that follows the First-In-First-Out (FIFO) principle. 
+They are used to manage a collection of elements, where the element added first is the first one to be removed.
+
+STRUCTURE
+An ordered collection of elements with two primary operations: 
+Enqueue adds an element to the back of the queue
+Dequeue removes and returns the element from the front of the queue.
+Peek to see the first item but not dequeue it 
+
+WHEN TO USE
+where the order of processing is essential and needs to follow a first-come, first-served approach. 
+Commonly used in scheduling tasks, managing requests, handling event-driven systems, and implementing breadth-first search algorithms.
+
+
+REAL WORL EXAMPLE
+
+Customers waiting in line at a ticket counter. The customer who arrives first gets served first (enqueue)
+and as each customer is served, they leave the queue (dequeue), maintaining the order of arrival.
+
+ADVANTAGES
+Simple and easy to implement.
+Efficient for maintaining the order of elements and preserving the FIFO behavior.
+Provides a clear and logical approach to handling tasks in the order they arrive.
+
+DISADVANTAGES
+Accessing or removing elements in the middle of the queue is inefficient since it requires dequeuing all the preceding elements.
+Queues have a fixed size in most programming languages, which can lead to overflow or underflow if not handled properly.
+Implementations with an array can lead to wasted memory space if elements are dequeued frequently, leaving gaps in the array.

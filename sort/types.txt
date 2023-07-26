@@ -1,0 +1,95 @@
+BUBBLE
+Repeatedly swapping adjacent elements if they are in the wrong order. 
+It continues to iterate through the array until no more swaps are needed.
+
+Suitable for small-sized arrays or mostly sorted arrays.
+
+Real-life example: Sorting a deck of cards from smallest to largest.
+
+Advantages:
+Simple implementation.
+Space complexity is minimal as it operates in-place.
+
+Disadvantages:
+Inefficient for large-sized arrays due to its time complexity.
+
+Time complexity:
+Best-case: O(n) when the array is already sorted.
+Average-case: O(n^2).
+Worst-case: O(n^2).
+
+INSERTION
+Builds the final sorted array one item at a time by inserting each unsorted element into its correct 
+position within the sorted section of the array.
+
+Suitable for small-sized arrays or partially sorted arrays.
+
+Real-life example: Sorting a player's scores in a game leaderboard.
+
+Advantages:
+Efficient for small-sized or partially sorted arrays.
+In-place sorting.
+Adaptive algorithm, performs well with almost sorted data.
+
+Disadvantages:
+Inefficient for large-sized arrays due to its time complexity.
+
+Time complexity:
+Best-case: O(n) when the array is already sorted.
+Average-case: O(n^2).
+Worst-case: O(n^2).
+
+SELECTION
+Divides the array into two parts: sorted and unsorted. It repeatedly selects the minimum element from the unsorted part 
+and swaps it with the leftmost element of the unsorted part.
+
+Suitable for small-sized arrays or when minimizing the number of swaps is a priority.
+
+Real-life example: Sorting a list of students based on their exam scores.
+
+Advantages:
+Simplicity in implementation.
+Space complexity is minimal as it operates in-place.
+
+Disadvantages:
+Inefficient for large-sized arrays due to its time complexity.
+The number of comparisons remains the same regardless of the input.
+
+Time complexity:
+Best-case: O(n^2).
+Average-case: O(n^2).
+Worst-case: O(n^2).
+
+MERGE
+Divide-and-conquer algorithm that divides the array into smaller halves, recursively sorts them, 
+and then merges the sorted halves back together.
+Suitable for sorting large-sized arrays or when a stable sorting algorithm is needed.
+
+Real-life example: Sorting a large collection of documents by date or timestamp.
+
+Advantages:
+Efficient for large-sized arrays.
+Guarantees stability (maintains the order of equal elements).
+
+Disadvantages:
+Requires additional memory space for merging the subarrays.
+
+Time complexity:
+Best-case: O(n log n).
+Average-case: O(n log n).
+Worst-case: O(n log n).
+
+QUICK
+
+Description: Quick sort is a divide-and-conquer algorithm that selects a pivot element and partitions the array into two subarrays, one with elements less than the pivot and the other with elements greater than the pivot. It then recursively applies the same process to the subarrays.
+Use case: Quick sort is suitable for large-sized arrays or when an in-place sorting algorithm is needed.
+Real-life example: Sorting a list of names in alphabetical order.
+Advantages:
+Efficient for large-sized arrays.
+In-place sorting (requires minimal additional space).
+Disadvantages:
+Worst-case scenario may occur for already sorted or nearly sorted arrays, resulting in degraded performance.
+Time complexity:
+Best-case: O(n log n).
+Average-case: O(n log n).
+Worst-case: O(n^2) in the absence of a good pivot selection strategy.

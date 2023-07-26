@@ -1,0 +1,17 @@
+DEFINITION
+Recursion has two fundamental aspects: the base case and recursive step.
+Difference between iteration is we rely on a counting variable and boolean condition
+Recursion calls the base case which determins whether the function will recurse or call 
+Without a base case its is equivalent to and infinite loop
+ 
+
+ A call stack tracks the funciton calls, computer will throw and error due to stack overflow if
+ the base case is not sufficient 
+
+In the recursive step the counting variable equivalent is the argument to the recursive callm
+
+Its recursive because the problem is being describe in terms of itself
+
+DISADVANTAGES
+
+Iteration is more efficient 

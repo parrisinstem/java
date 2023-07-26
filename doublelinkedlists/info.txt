@@ -1,0 +1,20 @@
+DEFINITION
+A doubly linked list is a data structure that consists of a sequence of nodes,
+where each node contains a value and two pointers/references: one pointing to the previous node and one pointing to the next node. 
+This allows for bidirectional traversal of the list.
+
+WHEN TO USE 
+
+When you need to efficiently insert and delete elements at both the beginning and end of the list.
+When you need to traverse the list in both forward and backward directions.
+When you need to maintain a reference to the previous node while traversing the list.
+
+ADVANTAGES
+
+Bidirectional traversal: Unlike a singly linked list, a doubly linked list allows for traversal in both forward and backward directions, which can be useful in certain algorithms or operations.
+Efficient insertion and deletion: Insertion and deletion of nodes at the beginning or end of the list can be done in constant time O(1) since the adjacent nodes' references can be updated directly.
+Flexibility: Doubly linked lists provide more flexibility compared to singly linked lists due to the presence of backward pointers.
+DISADVANTAGES
+
+Increased memory usage: Doubly linked lists require additional memory to store the backward pointers, which increases the overall memory usage compared to singly linked lists.
+Complexity of implementation: Compared to singly linked lists, doubly linked lists have more complex implementation and maintenance due to the additional references that need to be updated during operations.

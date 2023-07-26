@@ -1,0 +1,12 @@
+CONSTANT Θ(1). When a program will always do the same thing regardless of the input. print("hello world!")
+LOGARITHMIC Θ(log N). Search algorithms. Divides by 2
+LINEAR Θ(N). Iterative  datasets
+Θ(N*logN). You will see this runtime in sorting algorithms.
+QUADTRATIC Θ(N2).  Search through a two-dimensional dataset (like a matrix) or nested loops.
+EXPOENTIAL Θ(2N). Recursive algorithms
+FACTORINAL Θ(N!).  When you have to generate all of the different permutations of something. 
+For instance, a program that generates all the different ways to order the letters “abcd” would run in this runtime
+
+Normal THETA
+Best case OMEGA 
+worst case BIG O
