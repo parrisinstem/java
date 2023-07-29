@@ -33,6 +33,22 @@ public class Queue {
             throw new Error("Queue is full!");
         }
     }
+    //CIRCULAR
+    // public void enqueue(String data) {
+    //     if (this.hasSpace()) {
+    //         Node newNode = new Node(data);
+    //         if (isEmpty()) {
+    //             front = newNode;
+    //             rear = newNode;
+    //         } else {
+    //             rear.next = newNode;
+    //             rear = newNode;
+    //         }
+    //         size++;
+    //     } else {
+    //         throw new Error("Queue is full!");
+    //     }
+    // }
     
     public String dequeue() {
         if (!this.isEmpty()) {
@@ -43,6 +59,20 @@ public class Queue {
             throw new Error("Queue is empty!");
         }
     }
+    //CIRCULAR
+    // public String dequeue() {
+    //     if (!isEmpty()) {
+    //         String data = front.data;
+    //         front = front.next;
+    //         size--;
+    //         if (isEmpty()) {
+    //             rear = null; // If the queue becomes empty after dequeuing, reset rear to null
+    //         }
+    //         return data;
+    //     } else {
+    //         throw new Error("Queue is empty!");
+    //     }
+    // }
     
     public String peek() {
         if (this.isEmpty()) {
