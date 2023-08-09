@@ -1,4 +1,4 @@
-package trees;
+package trees.options;
 
 public class Trie {
     private TrieNode root;

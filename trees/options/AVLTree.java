@@ -1,4 +1,4 @@
-package trees;
+package trees.options;
 
 class AVLNode {
     int key;

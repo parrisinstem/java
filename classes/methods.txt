@@ -1,0 +1,24 @@
+toString(): This method returns a string representation of the object. 
+By default, it returns the class name followed by the memory address of the object in hexadecimal format.
+ It is often overridden in custom classes to provide a meaningful representation of the object.
+
+equals(Object obj): This method is used to compare two objects for equality. 
+By default, it checks if the references of the two objects are the same 
+(i.e., they point to the same memory location). It is common to override this method 
+in custom classes to define the notion of equality based on the object's properties.
+
+hashCode(): This method returns an integer hash code value for the object.
+It is used in hash-based data structures like HashMap, HashSet, etc. 
+The default implementation returns the memory address of the object as the hash code.
+
+getClass(): This method returns the Class object that represents the runtime class of the object. 
+The Class class provides methods to access class-related information at runtime.
+
+finalize(): This method is called by the garbage collector before an object is reclaimed by memory management. 
+It is not recommended to rely on this method for resource cleanup, as it has unpredictable timing and might not always be called.
+
+clone(): This method creates a shallow copy of the object. The default implementation throws a CloneNotSupportedException. 
+To use clone(), the class must implement the Cloneable interface and override this method.
+
+notify(), notifyAll(), and wait(): These methods are used for inter-thread communication and are part of the 
+Java's built-in mechanism to support synchronization and concurrency.

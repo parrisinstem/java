@@ -1,5 +1,0 @@
-Uses divide and conqer 
-
-best worst and average O are all the same. 
-
-space O(N)

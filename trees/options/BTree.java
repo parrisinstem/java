@@ -1,4 +1,6 @@
-package trees;
+package trees.options;
+
+import trees.BTreeNode;
 
 public class BTree {
     private BTreeNode root;
